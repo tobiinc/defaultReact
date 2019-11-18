@@ -1,6 +1,4 @@
-import {
-    Catalog,
-} from '../components/Catalog/';
+import { Poll } from '../components/Poll/';
 
 export default {
   path: '/',
@@ -8,7 +6,7 @@ export default {
   childRoutes: [
     { path: 'default-page',
       name: 'Default page',
-      component: Catalog,
+      component: Poll,
       isIndex: true
     }
   ]

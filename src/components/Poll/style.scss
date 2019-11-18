@@ -1,0 +1,15 @@
+.poll {
+  width: 150px;
+  margin: 20px auto;
+  &__title {
+    width: 104px;
+  }
+  &__questionList {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      margin: 5px  0;
+    }
+  }
+}

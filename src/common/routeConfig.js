@@ -1,5 +1,5 @@
 
-import Catalog from '../components/Catalog';
+import Poll from '../components/Poll';
 import PageNotFound from '../components/PageNotFound/';
 import homeRoute from './route';
 import _ from 'lodash';
@@ -12,7 +12,7 @@ const childRoutes = [
 
 const routes = [{
   path: '/',
-  component: Catalog,
+  component: Poll,
   childRoutes: [
     ...childRoutes,
     { path: '*', name: 'Page not found', component: PageNotFound }

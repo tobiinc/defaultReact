@@ -1,6 +1,10 @@
 import initialState from './initialState';
+import { reducer as pollTitleReducer } from './pollSetting';
+import { reducer as pollQuestionCountReducer } from './pollSetting';
 
 const reducers = [
+  pollTitleReducer,
+  pollQuestionCountReducer
 ];
 
 export default function reducer(state = initialState, action) {

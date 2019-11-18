@@ -1,0 +1,2 @@
+export const POLL_TITLE = 'POLL_TITLE';
+export const POLL_QUESTION_COUNT = 'POLL_QUESTION_COUNT';
